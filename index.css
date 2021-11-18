@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    font-family: 'Arial';
+}
+#timetable th, #timetable td {
+    width: 70%;
+    margin: 20px;
+}
+#timetable {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#hw th, #hw td {
+    width: 70%;
+    margin: 20px;
+}
+#hw {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#learn th, #learn td {
+    width: 70%;
+    margin: 20px;
+}
+#learn {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tests th, #tests td {
+    width: 70%;
+    margin: 20px;
+}
+#tests {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube {
+    background: red;
+    color: white;
+}
+.fa-github {
+    background: #333;
+    color: white;
+}
+.fa-reddit {
+    color: white;
+    background: #FF5700;
+}
+.fa-envelope {
+    color: white;
+    background: lightblue;
+}
+#contact ul {
+        list-style-type: none;
+        margin: 1;
+        padding: 0;
+        overflow: hidden; 
+}
