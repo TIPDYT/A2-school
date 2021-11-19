@@ -2,56 +2,60 @@
 <html lang="el">
     <head>
         <meta charset="UTF-8">
-        <title>Α2 Πρόγραμμα</title>
+        <title>Α2 Γυμνάσιο</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
         <link rel="stylesheet" href="index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
     <body>
-        <h1 id="title">Α2 Πρόγραμμα - A2 Alpha 1 Prototype</h1>
+        <div class="alert">
+            <span class="closebtn1" onclick='this.parentElement.style.display="none";'>&times;</span>
+            Αυτή η ιστοσελίδα δεν είναι ολοκληρομένη. Οτιδήποτε χρειαστεί να αλλάξω <a href="#contact">επικοινωνήστε</a> μαζί μου.
+        </div> 
+        <h1 id="title">Α2 Γυμνάσιο</h1>
         <br>
         <p id="desc1">Εδώ θα βρείτε το αυριανό (ή άλλης μέρας) πρόγραμμα του Α2.</p>
         <p id="desc2">Υπάρχουν τα επώνυμα καθηγητών και τα μαθήματα που θα χρειαστεί να φέρετε.</p>
         <br>
         <p id="siteby">Ιστοσελίδα από τον Ηλία (TIPD)</p>
+        <a href="http://gym-pentel.att.sch.gr/site/">Γυμνάσιο Πεντέλης</a><br>
         <br>
-        <p id="contactwrong">Αν βρείτε κάτι που δεν ισχύει, <a href="#contact">ενημερώστε με.</a></p>
+        <p id="contactwrong">Αν βρείτε κάτι που δεν ισχύει, <a href="mailto: tipdpap@outlook.com">ενημερώστε με.</a></p>
         <br><br>
         <h4>Συνολικές ώρες: <b>5</b></h4>
-        <h3 id="ttday">Πρόγραμμα της <b>Δευτέρας</b></h3><br>
+        <h3 id="ttday">Πρόγραμμα της <b>Παρασκευής</b></h3><br>
         <table id="timetable">
             <tr>
                 <th>Καθηγήτης</th>
                 <th>Μάθημα</th>
             </tr>
-
             <tr>
-                <td>Τσακαδοπούλου</td>
-                <td>Άλγεβρα</td>
+                <td id="t1">Μιχαλέρη</td>
+                <td id="tt1">Γερμανικά</td>
             </tr>
             <tr>
-                <td>Μιχαλέρη</td>
-                <td>Ιστορία</td>
+                <td id="t2">Τσακαδοπούλου</td>
+                <td id="tt2">Γεωμετρία</td>
             </tr>
             <tr>
-                <td>Παπαγεωργίου</td>
-                <td>Αρχαία</td>
+                <td id="t3">Παπαγεωργίου</td>
+                <td id="tt3">Αρχαία</td>
             </tr>
             <tr>
-                <td>Φούντου</td>
-                <td>Μουσική</td>
+                <td id="t4">Κεφαλή</td>
+                <td id="tt4">Βιολογία</td>
             </tr>
             <tr>
-                <td>Κίτσιου</td>
-                <td>Γλώσσα</td>
+                <td id="t5">Σκόρδου</td>
+                <td id="tt5">Αγγλικά</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="t6">Αποστολλάτου</td>
+                <td id="tt6">Εικαστικά</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="t7">-</td>
+                <td id="tt7">-</td>
             </tr>
         </table>
         <br>
@@ -63,32 +67,32 @@
                 <th>Ασκήσεις</th>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="h1">-</td>
+                <td id="hh1">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="h2">-</td>
+                <td id="hh2">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td  id="h3">-</td>
+                <td  id="hh3">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="h4">-</td>
+                <td id="hh4">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="h5">-</td>
+                <td id="hh5">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="h6">-</td>
+                <td id="hh6">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="h7">-</td>
+                <td id="hh7">-</td>
             </tr>
         </table>
         <br><h3>Θεωρητικά</h3><br>
@@ -98,32 +102,32 @@
                 <th>Ύλη</th>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="r1">-</td>
+                <td id="rr1">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="r2">-</td>
+                <td id="rr2">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="r3">-</td>
+                <td id="rr3">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="r4">-</td>
+                <td id="rr4">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="r5">-</td>
+                <td id="rr5">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="r6">-</td>
+                <td id="rr6">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="r7">-</td>
+                <td id="rr7">-</td>
             </tr>
         </table>
         <br><h3>Διαγωνίσματα-Τέστ</h3><br>
@@ -131,36 +135,95 @@
             <tr>
                 <th>Μάθημα</th>
                 <th>Ύλη</th>
+                <th>Ημέρα</th>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="q1">-</td>
+                <td id="qq1">-</td>
+                <td id="qqq1">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="q2">-</td>
+                <td id="qq2">-</td>
+                <td id="qqq2">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="q3">-</td>
+                <td id="qq3">-</td>
+                <td id="qqq3">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="q4">-</td>
+                <td id="qq4">-</td>
+                <td id="qqq4">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="q5">-</td>
+                <td id="qq5">-</td>
+                <td id="qqq5">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="q6">-</td>
+                <td id="qq6">-</td>
+                <td id="qqq6">-</td>
             </tr>
             <tr>
-                <td>-</td>
-                <td>-</td>
+                <td id="q7">-</td>
+                <td id="qq7">-</td>
+                <td id="qqq7">-</td>
+            </tr>
+            <tr>
+                <td id="q8">-</td>
+                <td id="qq8">-</td>
+                <td id="qqq8">-</td>
+            </tr>
+            <tr>
+                <td id="q9">-</td>
+                <td id="qq9">-</td>
+                <td id="qqq9">-</td>
+            </tr>
+            <tr>
+                <td id="q10">-</td>
+                <td id="qq10">-</td>
+                <td id="qqq10">-</td>
+            </tr>
+            <tr>
+                <td id="q11">-</td>
+                <td id="qq11">-</td>
+                <td id="qqq11">-</td>
+            </tr>
+            <tr>
+                <td id="q12">-</td>
+                <td id="qq12">-</td>
+                <td id="qqq12">-</td>
+            </tr>
+            <tr>
+                <td id="q13">-</td>
+                <td id="qq13">-</td>
+                <td id="qqq13">-</td>
+            </tr>
+            <tr>
+                <td id="q14">-</td>
+                <td id="qq14">-</td>
+                <td id="qqq14">-</td>
+            </tr>
+            <tr>
+                <td id="q14">-</td>
+                <td id="qq14">-</td>
+                <td id="qqq14">-</td>
+            </tr>
+            <tr>
+                <td id="q15">-</td>
+                <td id="qq15">-</td>
+                <td id="qqq15">-</td>
+            </tr>
+            <tr>
+                <td id="q16">-</td>
+                <td id="qq16">-</td>
+                <td id="qqq16">-</td>
             </tr>
         </table>
+        <br><br>
         <div id="contact">
             <ul>
                 <a href="mailto: tipdpap@outlook.com" class="fa fa-envelope"></a>
@@ -171,8 +234,5 @@
             </ul>
         </div>
     </body>
-    <script>
-        console.log("Βλέπω ότι σου αρέσει ο προγραμματισμός :)");
-        console.log("Καλή σου μέρα :)");
-    </script>
+    <script src="index.js"></script>
 </html>
